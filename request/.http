@@ -1,0 +1,19 @@
+@apiTasks = http://localhost:3001/api/task
+
+
+### Get all tasks
+{{apiTasks}}/tasks
+
+### Create a new task
+POST {{apiTasks}}/tasks
+Content-Type: application/json
+
+{
+  "title": "Learn C++"
+}
+
+### Delete a tasks
+DELETE {{apiTasks}}/tasks/2
+
+### UPDATE STATE TASKS
+PUT {{apiTasks}}/tasks/1
