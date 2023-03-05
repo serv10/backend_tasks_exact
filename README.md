@@ -1,6 +1,6 @@
 # Backend_tasks_exact
 ## Pasos para ejecutar el programa
-```
+``` bash
 # 1. Clonar el repositorio y ejecutar
 npm install
 
