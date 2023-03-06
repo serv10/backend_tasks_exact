@@ -15,6 +15,5 @@ update task set completed=1 where id=2;
 -- SHOW active tasks     
 select * from task;
 
-# Eliminate completely from table
+# REMOVE specific task from table
 delete from task where id=4;
-
