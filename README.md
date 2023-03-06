@@ -11,7 +11,7 @@ npm install
 # 3. Ejecutar el archivo Scripts.sql que está en la carpeta scripts
 
 # 4. Escribir los valores para las siguientes variables de entorno
-DB_HOST, DB_USER, DB_PASSWORD, DB_DATABASE, DB_PORT y PORT
+DB_HOST, DB_USER, DB_PASSWORD, DB_DATABASE y DB_PORT, y para PORT = 3001
 
 # 5. Y por último, ejecutar
 npm start
